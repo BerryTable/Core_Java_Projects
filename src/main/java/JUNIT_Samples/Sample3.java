@@ -1,6 +1,7 @@
 package JUNIT_Samples;
 
 import org.junit.After;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -21,6 +22,15 @@ public class Sample3 {
         String str = "Test Case in Sample 3 ";
         System.out.println(str);
         assertEquals("Test Case in Sample 3 ",str);
+
+    }
+    @Ignore
+
+
+    public void test_IgnoreAnnotation() {
+        String str = "Test Case in Sample 3- Ignore  ";
+        System.out.println(str);
+        assertEquals("Test Case in Sample 3- Ignore  ",str);
 
     }
 }

@@ -1,6 +1,7 @@
 package testNgPractice;
 
 
+import org.junit.Ignore;
 import org.testng.annotations.Test;
 
 /**
@@ -10,8 +11,10 @@ import org.testng.annotations.Test;
 
 public class TestParallelClassTwo {
 
-    @Test
+@Ignore
+
     public void testCaseOne() {
+        System.out.println("   ");
         //Printing class name and Id of the thread on using which test method got executed
         System.out.println("Test Case One in " + getClass().getSimpleName()
                 + " with Thread Id:- " + Thread.currentThread().getId());

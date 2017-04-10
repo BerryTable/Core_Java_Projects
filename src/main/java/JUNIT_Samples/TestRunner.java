@@ -13,7 +13,8 @@ public class TestRunner {
 
 
      public static void main(String[] args) {
-         Result result = JUnitCore.runClasses(Sample2.class,Sample3.class,TestEmployeeDetails.class);
+       //  Result result = JUnitCore.runClasses(Sample2.class,Sample3.class,TestEmployeeDetails.class);
+         Result result = JUnitCore.runClasses(Sample3.class);
 
          //Result result = JUnitCore.runClasses(TestAssertions.class);
 
